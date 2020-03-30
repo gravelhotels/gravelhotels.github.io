@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Gravel | Search</title>
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+            <link rel="icon" href="favicon.ico" type="image/x-icon">
+            <link rel="stylesheet" href="/site-libs/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="/css/styles.css">
+            <script src="/js/functions.js"></script>
+            <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+            <script src="/site-libs/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+            <script src="/site-libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+            <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+        </head>
+		<body>
+            <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+                <a href="index.html"><img class="logo" src="/assets/logo-no-words.png"></a>
+                
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="navbar-text" class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a class="navbar-text" class="nav-link" href="mailto:contact@gravel.org">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+            
+            <div id="search-page">
+    <ul class="list-group">
+        <a href="#hotels" onclick=displayHotels()><li class="list-group-item d-flex justify-content-between align-items-center">
+                Hotels/Living Accomodations
+                <span class="badge badge-info badge-pill">3</span>
+            </li></a>
+        <a href="#activities" onclick=displayActivities()><li class="list-group-item d-flex justify-content-between align-items-center">
+                Activities
+                <span class="badge badge-info badge-pill">2</span>
+            </li></a>
+    </ul>
+    <div id="hotels" class="visible">
+        <h2 class="search-titles">Hotels and Living Accomodations</h2>
+        <table class="table table-hover">
+            <tbody>
+                <tr class="table-primary">
+                <th scope="row"></th>
+                <td>Glass House Mountains Ecolodge</td>
+                <td>4/5</td>
+                <td>Organic or Local Food, Car-Free Accessibility, Ecological Cleaning Products</td>
+                <td>$47.10</td>
+                </tr>
+                <tr class="table-light">
+                <th scope="row"></th>
+                <td>Daintree Peaks Eco Stays</td>
+                <td>4/5</td>
+                <td>100% Renewable Energy, Organic or Local Food, Ecological Cleaning Products</td>
+                <td>$47.10</td>
+                </tr>
+                <tr class="table-primary">
+                <th scope="row"></th>
+                <td>Eternity Springs Art Farm</td>
+                <td>3/5</td>
+                <td>Organic or Local Food, Ecological Cleaning Products, >80% Waste Recycling</td>
+                <td>$47.10</td>
+            </tbody>
+        </table> 
+    </div>
+    <div id="activities" class="hidden">
+        <h2 class="search-titles">Activities</h2>
+        <table class="table table-hover">
+            <tbody>
+                <tr class="table-primary">
+                <th scope="row"></th>
+                <td>Adrenalin Snorkel and Dive</td>
+                <td>4/5</td>
+                <td>Water-Related Activities</td>
+                </tr>
+                <tr class="table-light">
+                <th scope="row"></th>
+                <td>Araucaria Ecotours</td>
+                <td>4/5</td>
+                <td>Nature Tours</td>
+                </tr>
+            </tbody>
+        </table> 
+    </div>
+</div>
+
+
+                    
+            </div>
+            <footer>
+                <ul>
+                    <img class="footer-logo logo" src="/assets/gravel-logo.png">
+                    <p>Copyright 2020 Gravel | All rights reserved.</p>
+                </ul>
+            </footer>
+        </body>
+	</html>
